@@ -6,6 +6,8 @@ import login from '@/components/login'
 import Layouts from '@/components/layouts' // 导入layouts.vue 组件
 import vif from '@/components/v-if-test'
 import vfor from '@/components/v-for-test'
+import compute from '@/components/jiSuanShuXing'
+import compute0 from '@/components/jiSuanShuXing0'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +42,18 @@ export default new Router({
       // redirect: '/',
       // name: 'HelloWorld',
       component: vfor
+    },
+    {
+      path: '/compute',
+      // redirect: '/',
+      // name: 'HelloWorld',
+      component: compute
+    },
+    {
+      path: '/compute0',
+      // redirect: '/',
+      // name: 'HelloWorld',
+      component: compute0
     },
     // {
     //   path: '/haha01/login',
