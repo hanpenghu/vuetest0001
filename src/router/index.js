@@ -8,6 +8,7 @@ import vif from '@/components/v-if-test'
 import vfor from '@/components/v-for-test'
 import compute from '@/components/jiSuanShuXing'
 import compute0 from '@/components/jiSuanShuXing0'
+import compute1 from '@/components/jiSuanShuXingSetter'
 Vue.use(Router)
 
 export default new Router({
@@ -54,6 +55,12 @@ export default new Router({
       // redirect: '/',
       // name: 'HelloWorld',
       component: compute0
+    },
+    {
+      path: '/compute1',
+      // redirect: '/',
+      // name: 'HelloWorld',
+      component: compute1
     },
     // {
     //   path: '/haha01/login',
